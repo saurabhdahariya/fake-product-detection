@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fff;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 28px 20px 58px rgba(0, 0, 0, 0.2);
+}
+
+/* left part*/
+
+#left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 25rem;
+  height: 25rem;
+}
+#in {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 25px;
+  padding: 60px 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: #01a1fe 3px solid underline;
+  text-underline-position: under;
+}
+
+/* Input Type */
+
+#text {
+  margin-bottom: 30px;
+  font-size: large;
+  padding: 5px 25px 0 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+input {
+  outline: 2px solid #01a1fe;
+  border: 0 outset;
+  height: 2.3rem;
+  border-radius: 5px;
+}
+input::placeholder {
+  font-weight: 500;
+  font-size: large;
+}
+/* Button */
+
+i {
+  margin-right: 8px;
+  font-weight: 700;
+}
+button {
+  padding: 5px 0;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  background: #01a1fe;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+button:hover {
+  background: black;
+  color: #01a1fe;
+}
+button:active {
+  transform: translateY(4px);
+}
+
+/* Right part */
+
+#right {
+  background: #01a1fe;
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image {
+  width: 310px;
+  height: 310px;
+  background: black;
+  border-radius: 7px;
+}
+img {
+  border: black 5px solid;
+  border-radius: 7px;
+}

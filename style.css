@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+ .mid-part h1{
+     font-size: 50px;
+     font-weight: 700;
+ }
+ .mid-part p{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 20px; */
+}
+.mid-part img{
+    height: 550px;
+}
+
+.login{
+    background-color: rgb(0, 162, 255);
+    background-size: cover;
+    height: 750px;
+    
+}
+.login .formbox form{
+    width: 60%;
+}
+
